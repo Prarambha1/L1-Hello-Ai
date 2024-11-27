@@ -39,21 +39,21 @@ while True:
 
 while True:
             joke = input("Would you like to hear a joke? (yes/no): ").lower()
-            if chat == "no":
+            if joke == "no":
                 print(f"That's okay. I must tell you, it was a funny one")
                 break
-            elif chat == "yes":
+            elif joke == "yes":
                 print("Why don’t skeletons fight each other?\nBecause they don’t have the guts! 😄")
                 break 
             else:
                 print("Please respond with 'yes' or 'no'.")
 
 while True:
-            chat = input("Would you like to continue chatting? (yes/no): ").lower()
-            if chat == "no":
+            follow = input("Would you like to continue chatting? (yes/no): ").lower()
+            if follow == "no":
                 print(f"Goodbye, {name}! Take care.")
                 break
-            elif chat == "yes":
+            elif follow == "yes":
                 print("Great! Let's keep chatting.")
                 break 
             else:
